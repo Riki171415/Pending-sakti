@@ -1,0 +1,15 @@
+{
+  "appId": "com.claimaudit.app",
+  "appName": "Claim Audit App",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "initialFocus": true
+  }
+}

@@ -1,0 +1,86 @@
+﻿
+> pendingsaktiV1@1.2.1 electron:preview
+> vite build && cross-env ELECTRON_IS_DEV=1 electron .
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mโ“[39m 1878 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.52 kB[22m[1m[22m[2m โ” gzip:   0.33 kB[22m
+[2mdist/[22m[35massets/index-C5p5Szud.css  [39m[1m[2m 50.74 kB[22m[1m[22m[2m โ” gzip:   8.33 kB[22m
+[2mdist/[22m[36massets/web-w0jdN3Oe.js     [39m[1m[2m  0.38 kB[22m[1m[22m[2m โ” gzip:   0.25 kB[22m
+[2mdist/[22m[36massets/web-DP-tPgEf.js     [39m[1m[2m  1.49 kB[22m[1m[22m[2m โ” gzip:   0.70 kB[22m
+[2mdist/[22m[36massets/index-CQMYjwVE.js   [39m[1m[33m636.20 kB[39m[22m[2m โ” gzip: 226.89 kB[22m
+node.exe : [33m
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpeci    fied: 
+([33m:Stri    ng) [], 
+RemoteExc    eption
+    + FullyQualifiedE    
+rrorId : NativeCo    
+mmandError
+ 
+(!) Some chunks are 
+larger than 500 kB after 
+minification. Consider:
+- Using dynamic import() 
+to code-split the 
+application
+- Use build.rollupOptions.
+output.manualChunks to 
+improve chunking: https://
+rollupjs.org/configuration
+-options/#output-manualchu
+nks
+- Adjust chunk size limit 
+for this warning via build
+.chunkSizeWarningLimit.[3
+9m
+[32mโ“ built in 14.66s[39m
+
+App threw an error during 
+load
+ReferenceError: require 
+is not defined in ES 
+module scope, you can use 
+import instead
+This file is being 
+treated as an ES module 
+because it has a '.js' 
+file extension and 'C:\Cla
+imAuditApp\package.json' 
+contains "type": 
+"module". To treat it as 
+a CommonJS script, rename 
+it to use the '.cjs' file 
+extension.
+    at file:///C:/ClaimAud
+itApp/electron/main.js:1:5
+4
+    at ModuleJob.run (node
+:internal/modules/esm/modu
+le_job:274:25)
+    at async onImport.trac
+ePromise.__proto__ (node:i
+nternal/modules/esm/loader
+:644:26)
+    at async 
+loadApplicationPackage (fi
+le:///C:/ClaimAuditApp/nod
+e_modules/electron/dist/re
+sources/default_app.asar/m
+ain.js:127:9)
+    at async file:///C:/Cl
+aimAuditApp/node_modules/e
+lectron/dist/resources/def
+ault_app.asar/main.js:240:
+9
